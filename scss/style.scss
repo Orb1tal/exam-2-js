@@ -1,0 +1,61 @@
+@import "normalize";
+@import "variables";
+@import "font";
+@import "blocks/header";
+@import "blocks/portfolio";
+@import "blocks/team";
+@import "blocks/contact-us";
+@import "blocks/testimonials";
+@import "blocks/contact-map";
+@import "blocks/footer";
+
+
+body {
+    font-family: $main-font-family;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+ul,li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.outer-section {
+    text-align: center;
+    padding: 89px 0 102px;
+  
+    &__title {
+      font-family: $title-font-family;
+      color: #333b46;
+      font-size: 20px;
+      font-weight: 300;
+      letter-spacing: 4px;
+      line-height: 12px;
+      text-transform: uppercase;
+    }
+  
+    &__text {
+      color:  #81868e;
+      font-size: 14px;
+      line-height: 25px;
+      max-width: 457px;
+      margin: 41px auto 60px;
+    }
+}

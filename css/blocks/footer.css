@@ -1,0 +1,16 @@
+.main-footer {
+  padding: 72px 0 69px;
+  background-color: #fcfcfc;
+  text-align: center; }
+  .main-footer__text {
+    color: #81868e;
+    font-size: 14px;
+    line-height: 25px;
+    margin: 24px 0 37px; }
+  .main-footer__social {
+    display: inline-block;
+    padding: 4px; }
+    .main-footer__social:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2); }
